@@ -2,7 +2,7 @@ main {
     counter-reset: lineno;
 }
 
-/* test for mobile*/
+/* fixed about section for mobile*/
 @media only screen and (max-width: 600px) {
   body {
     width: 400x;
