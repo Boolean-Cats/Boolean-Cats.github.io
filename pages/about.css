@@ -2,6 +2,15 @@ main {
     counter-reset: lineno;
 }
 
+/* test for mobile*/
+@media only screen and (max-width: 600px) {
+  body {
+    width: 400x;
+    height: 400px;
+}
+}
+}
+
 /* text does not wrap at the end of the line */
 .line, .status-line {
     white-space: nowrap;
