@@ -1,0 +1,35 @@
+main {
+    counter-reset: lineno;
+}
+
+/* text does not wrap at the end of the line */
+.line, .status-line {
+    white-space: nowrap;
+}
+
+/* "Number of line" visualization*/ 
+.line:before {
+    counter-increment: lineno;
+    content: counter(lineno);
+    padding-right: 1vw;
+    padding-left: 1vw;
+    font-weight: bold;
+}
+
+/* "empty-line" visualization*/
+.empty-line:before {
+    content: "~";
+    padding-right: 1vw;
+    font-weight: bold;
+}
+
+/* Right Date */
+.status-line {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+#age {
+    display: inline;
+}
