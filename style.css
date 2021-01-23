@@ -10,6 +10,8 @@ html, body {
 a {
 	color: var(--link);
 	text-decoration: none;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
 }
 
 a:hover { 
@@ -18,7 +20,7 @@ a:hover {
 }
 
 span {
-    display: block;
+	display: block;
 }
 
 main {
@@ -38,7 +40,7 @@ main {
     right: 0;
     margin: 1vh 1vw;
     padding: 1vh 1vw;
-    font-size: 1.3em;
+	font-size: 1.3em;
 }
 
 .fa-palette:hover {
